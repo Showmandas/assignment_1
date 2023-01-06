@@ -20,7 +20,7 @@ header {
   position: relative;
 }
 .header-part h1 {
-  width: 530px;
+  width: 510px;
   color: #fff;
   font-weight: 700;
   font-size: 65px;
@@ -39,7 +39,7 @@ header {
   line-height: 26px;
   text-align: right;
   position: absolute;
-  left: 915px;
+  left: 880px;
   top: 468px;
 }
 
@@ -53,7 +53,7 @@ header {
   border: none;
   border-radius: 4px;
   text-transform: capitalize;
-  left: 1250px;
+  left: 1210px;
   top: 578px;
   position: absolute;
 }
