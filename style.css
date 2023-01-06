@@ -68,12 +68,11 @@ header {
 }
 .row {
   display: flex;
-  justify-content: center;
-  gap: 80px;
+  justify-content: space-around;
 }
 
 .row-img img {
-  width: 400px;
+  width: 455px;
   height: 600px;
 }
 .row-txt {
@@ -222,21 +221,21 @@ footer {
 .subscribe{
     width:330px;
     height: 300px;
-    padding-top:130px;
+    padding-top:140px;
     padding-right: 230px;
 }
 .subscribe h4{
     font-weight: 600;
 font-size: 25px;
 color: #FFFFFF;
-margin-bottom: 35px;
+margin-bottom: 30px;
 }
 .subscribe form{
     display: flex;
     flex-direction: column;
 }
 .subscribe form input[type='text']{
-    padding: 18px 35px;
+    padding: 18px 20px;
     font-weight: 400;
 font-size: 18px;
 color: #F3F3F3;
@@ -247,7 +246,7 @@ margin-bottom: 20px;
 }
 
 #subs-btn{
-    width: 120px;
+    width: 140px;
     height: 50px;
     background-color: #005fac;
     color: #fff;
