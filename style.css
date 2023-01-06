@@ -69,7 +69,7 @@ header {
 .row {
   display: flex;
   justify-content: center;
-  gap: 70px;
+  gap: 80px;
 }
 
 .row-img img {
@@ -86,7 +86,7 @@ header {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 35px;
- color: #151414;
+  color: #151414;
 }
 .row-txt p {
   font-weight: 400;
@@ -113,7 +113,7 @@ header {
   height: 204px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 220px;
 }
 .plan h2 {
   font-weight: 700;
@@ -137,8 +137,122 @@ header {
   color: #151414;
 }
 
-.plan-1 p{
+.plan-1 p {
   font-weight: 500;
   font-size: 20px;
   color: #737272;
+}
+
+/* style gradient section  */
+.gradient {
+  margin-bottom: 60px;
+}
+.gradient-div {
+  width: 1000px;
+  height: 300px;
+  background-image: url("images/gradient1.png"), url("images/watch.png");
+  background-position: left;
+  margin: 0 auto;
+}
+
+.gradient-txt {
+  width: 470px;
+  height: 190px;
+  padding: 50px;
+}
+.gradient-txt h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+#call-btn {
+  width: 120px;
+  height: 50px;
+  background-color: #fff;
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+/* style footer section  */
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #151414;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 100px; */
+}
+
+.future {
+  width: 500px;
+  height: 320px;
+  padding-top:130px;
+  padding-left: 230px;
+  
+}
+
+.future h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+.future p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img{
+    width: 50px;
+    height: 50px;
+}
+.subscribe{
+    width:330px;
+    height: 300px;
+    padding-top:130px;
+    padding-right: 230px;
+}
+.subscribe h4{
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+margin-bottom: 35px;
+}
+.subscribe form{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe form input[type='text']{
+    padding: 18px 35px;
+    font-weight: 400;
+font-size: 18px;
+color: #F3F3F3;
+border: 1px solid #F3F3F3;
+border-radius: 10px;
+background-color: transparent;
+margin-bottom: 20px;
+}
+
+#subs-btn{
+    width: 120px;
+    height: 50px;
+    background-color: #005fac;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
