@@ -16,17 +16,24 @@ header {
 }
 
 .header-part {
+  height: 410px;
   text-align: right;
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 200px;
+  padding-right: 140px;
+  align-items: flex-end;
 }
 .header-part h1 {
   width: 510px;
   color: #fff;
   font-weight: 700;
   font-size: 65px;
-  transform: translate(750px,200px);
+  /* transform: translate(750px,200px); */
   margin-bottom: 8px;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .para-txt {
@@ -37,7 +44,7 @@ header {
   margin-bottom: 32px;
   line-height: 26px;
   text-align: right;
-  position: absolute;
+  /* position: absolute; */
   /* left: 77%; */
   /* top: 464px; */
   /* left: 50%;
@@ -45,7 +52,7 @@ header {
 /* transform: translate(-70%,-20%);  */
 /* left: 80%;
   top: 40%; */
-  transform: translate(750px,460px);
+  /* transform: translate(750px,460px); */
 }
 
 .contact-btn {
@@ -60,8 +67,8 @@ header {
   text-transform: capitalize;
   /* left: 83%;
   top: 578px; */
-  transform: translate(-500px,575px);
-  position: absolute;
+  /* transform: translate(-400px,575px);
+  position: absolute; */
 }
 
 /* style failures section */
