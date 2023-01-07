@@ -10,7 +10,7 @@ header {
   height: 855px;
   background-image: url("images/banner/banner3.png");
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   margin-bottom: 120px;
 }
@@ -24,8 +24,9 @@ header {
   color: #fff;
   font-weight: 700;
   font-size: 65px;
-  left: 880px;
-  top: 216px;
+  left: 80%;
+  top: 90%;
+  transform: translate(-80%,90%);
   margin-bottom: 8px;
   position: absolute;
 }
@@ -39,8 +40,11 @@ header {
   line-height: 26px;
   text-align: right;
   position: absolute;
-  left: 880px;
-  top: 468px;
+  left: 1000px;
+  top: 464px;
+  /* left: 50%;
+  /* top: 468px; */
+transform: translate(-50px,-10px); 
 }
 
 .contact-btn {
@@ -55,6 +59,7 @@ header {
   text-transform: capitalize;
   left: 1200px;
   top: 578px;
+  transform: translate(106px,-10px);
   position: absolute;
 }
 
