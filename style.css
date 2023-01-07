@@ -149,7 +149,7 @@ header {
 .gradient-div {
   width: 1120px;
   height: 300px;
-  background-image: url("images/gradient1.png"), url("images/watch.png");
+  background-image:linear-gradient(to right,#005fac,transparent), url("images/watch.png");
   background-position: left;
   margin: 0 auto;
   border-radius: 10px;
