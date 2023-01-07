@@ -24,7 +24,7 @@ header {
   color: #fff;
   font-weight: 700;
   font-size: 65px;
-  transform: translate(880px,200px);
+  transform: translate(750px,200px);
   margin-bottom: 8px;
   position: absolute;
 }
@@ -45,7 +45,7 @@ header {
 /* transform: translate(-70%,-20%);  */
 /* left: 80%;
   top: 40%; */
-  transform: translate(880px,460px);
+  transform: translate(750px,460px);
 }
 
 .contact-btn {
@@ -60,7 +60,7 @@ header {
   text-transform: capitalize;
   /* left: 83%;
   top: 578px; */
-  transform: translate(-475px,575px);
+  transform: translate(-500px,575px);
   position: absolute;
 }
 
