@@ -40,11 +40,11 @@ header {
   line-height: 26px;
   text-align: right;
   position: absolute;
-  left: 1000px;
+  left: 77%;
   top: 464px;
   /* left: 50%;
   /* top: 468px; */
-transform: translate(-50px,-10px); 
+transform: translate(-70%,-20%); 
 }
 
 .contact-btn {
@@ -57,9 +57,9 @@ transform: translate(-50px,-10px);
   border: none;
   border-radius: 4px;
   text-transform: capitalize;
-  left: 1200px;
+  left: 83%;
   top: 578px;
-  transform: translate(106px,-10px);
+  transform: translate(-68%,-10px);
   position: absolute;
 }
 
@@ -190,7 +190,7 @@ footer {
   background-color: #151414;
   display: flex;
   justify-content: space-around;
-  gap: 30%;
+  gap: 100px;
 }
 
 .future {
