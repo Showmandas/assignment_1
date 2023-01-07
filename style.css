@@ -40,11 +40,14 @@ header {
   line-height: 26px;
   text-align: right;
   position: absolute;
-  left: 77%;
-  top: 464px;
+  /* left: 77%; */
+  /* top: 464px; */
   /* left: 50%;
   /* top: 468px; */
-transform: translate(-70%,-20%); 
+/* transform: translate(-70%,-20%);  */
+/* left: 80%;
+  top: 40%; */
+  transform: translate(950px,460px);
 }
 
 .contact-btn {
@@ -57,9 +60,9 @@ transform: translate(-70%,-20%);
   border: none;
   border-radius: 4px;
   text-transform: capitalize;
-  left: 83%;
-  top: 578px;
-  transform: translate(-68%,-10px);
+  /* left: 83%;
+  top: 578px; */
+  transform: translate(-380px,575px);
   position: absolute;
 }
 
