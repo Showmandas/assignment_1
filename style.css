@@ -185,7 +185,7 @@ footer {
   background-color: #151414;
   display: flex;
   justify-content: space-around;
-  /* gap: 100px; */
+  gap: 30%;
 }
 
 .future {
