@@ -10,7 +10,7 @@ header {
   height: 855px;
   background-image: url("images/banner/banner3.png");
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 120px;
 }
@@ -48,8 +48,8 @@ header {
   /* top: 464px; */
   /* left: 50%;
   /* top: 468px; */
-/* transform: translate(-70%,-20%);  */
-/* left: 80%;
+  /* transform: translate(-70%,-20%);  */
+  /* left: 80%;
   top: 40%; */
   /* transform: translate(750px,460px); */
 }
@@ -76,7 +76,7 @@ header {
   margin: 0 auto;
   width: 1100px;
   height: 725px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .row {
   display: flex;
@@ -119,18 +119,17 @@ header {
 }
 
 /* style workings section  */
-.workings{
+.workings {
   /* width: 50%; */
   margin: 0 auto;
   width: 1100px;
   height: 725px;
   margin-bottom: 70px;
 }
-#person{
+#person {
   padding-top: 60px;
   width: 650px;
   height: 600px;
-
 }
 
 /* style plan section*/
@@ -176,7 +175,8 @@ header {
 .gradient-div {
   width: 1120px;
   height: 300px;
-  background-image:linear-gradient(to right,#005fac,transparent), url("images/watch.png");
+  background-image: linear-gradient(to right, #005fac, transparent),
+    url("images/watch.png");
   background-position: left;
   margin: 0 auto;
   border-radius: 10px;
@@ -218,9 +218,8 @@ footer {
 .future {
   width: 500px;
   height: 320px;
-  padding-top:130px;
+  padding-top: 130px;
   padding-left: 230px;
-  
 }
 
 .future h2 {
@@ -242,44 +241,44 @@ footer {
   gap: 35px;
 }
 
-.social-icons img{
-    width: 50px;
-    height: 50px;
+.social-icons img {
+  width: 50px;
+  height: 50px;
 }
-.subscribe{
-    width:330px;
-    height: 300px;
-    padding-top:140px;
-    padding-right: 230px;
+.subscribe {
+  width: 330px;
+  height: 300px;
+  padding-top: 140px;
+  padding-right: 230px;
 }
-.subscribe h4{
-    font-weight: 600;
-font-size: 25px;
-color: #FFFFFF;
-margin-bottom: 30px;
+.subscribe h4 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
-.subscribe form{
-    display: flex;
-    flex-direction: column;
+.subscribe form {
+  display: flex;
+  flex-direction: column;
 }
-.subscribe form input[type='text']{
-    padding: 18px 20px;
-    font-weight: 400;
-font-size: 18px;
-color: #F3F3F3;
-border: 1px solid #F3F3F3;
-border-radius: 10px;
-background-color: transparent;
-margin-bottom: 20px;
+.subscribe form input[type="text"] {
+  padding: 18px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-bottom: 20px;
 }
 
-#subs-btn{
-    width: 140px;
-    height: 50px;
-    background-color: #005fac;
-    color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
+#subs-btn {
+  width: 140px;
+  height: 50px;
+  background-color: #005fac;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
